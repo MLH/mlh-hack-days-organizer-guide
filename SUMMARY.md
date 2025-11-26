@@ -9,6 +9,7 @@
   * [Photography](event-planning-guide/photography.md)
   * [Hack Day Guide for School Administrators](event-planning-guide/hack-day-guide-for-school-administrators.md)
 * [OrganizerHQ Tutorial](organizerhq-tutorial.md)
+* [Devpost for Hack Days](devpost-for-hack-days.md)
 * [Swag](swag.md)
 * [Reimbursements](reimbursements.md)
 
