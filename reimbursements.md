@@ -28,6 +28,7 @@ Food, snacks, and (non-alcoholic) beverages are always reimbursable. Other event
 | Ethiopia       | $2.49      | $124.50              |
 | Togo           | $2.25      | $112.50              |
 | Denmark        | $6.33      | $316.50              |
+| Morocco        | $2.68      | $134.00              |
 | Bangladesh     | $1.88      | $94.00              |
 
 _Don't see your country listed? Email us at hackdays@mlh.io and we'll add it!_
