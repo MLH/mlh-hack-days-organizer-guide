@@ -2,7 +2,7 @@
 
 Google supports Major League Hacking and our Hack Days program. Google has tons of awesome AI-powered tools for hackers to leverage during your event, but we specifically encourage hackers to explore Google AI Studio and the Google Gemini APIs.&#x20;
 
-As part of hosting a Hack Day, you'll run a Best Use of Google Gemini prize category. Here's a description of the prize:&#x20;
+As part of hosting a Hack Day, you'll run a Best Use of Google Gemini prize category. Here's a description of the prize, which should be added to your Devpost page:&#x20;
 
 ### Best Use of Gemini API
 
@@ -15,6 +15,9 @@ It’s time to push the boundaries of what's possible with AI using Google Gemin
 * Generate creative content like code, scripts, music, and more
 
 Think of the possibilities… what will you build with the Google Gemini API this weekend?
+
+### Slides
+Upon event approval, you will receive a set of slides as part of the official onboarding packet. You should present these slides to participants as part of your opening ceremony.
 
 ### Judging Info
 
