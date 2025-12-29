@@ -6,9 +6,9 @@ Simultaneously, Large Language Models and Generative AI have made it more possib
 
 _**This website exists primarily as documentation for Hack Day Organizers. Not Hack Day hackers and attendees.**_&#x20;
 
-{% hint style="info" %}
+
 **Start Your Application:** [**https://organize.mlh.io/host/google-gemini-hack-days**](https://organize.mlh.io/host/google-gemini-hack-days)
-{% endhint %}
+
 
 ### **How does organizing a Hack Day work?**&#x20;
 
