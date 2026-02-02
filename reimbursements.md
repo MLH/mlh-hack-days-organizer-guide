@@ -17,7 +17,7 @@ Food, snacks, and (non-alcoholic) beverages are always reimbursable. Other event
 | India          | $1.69      | $84.5                |
 | Germany        | $5.40      | $270                 |
 | Rwanda         | $1.89      | $95                  |
-| Nigeria        | $0.88      | $44                  |
+| Nigeria        | $1         | $50                  |
 | Egypt          | $1.22      | $61.00               |
 | Pakistan       | $1.65      | $82.50               |
 | Kenya          | $2.33      | $116.50              |
