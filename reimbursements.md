@@ -31,5 +31,6 @@ Food, snacks, and (non-alcoholic) beverages are always reimbursable. Other event
 | Morocco        | $2.68      | $134.00              |
 | Bangladesh     | $1.88      | $94.00               |
 | Slovokia       | $3.88      | $194.00              |
+| Colombia       | $2.58      | $129.00              |
 
 _Don't see your country listed? Email us at hackdays@mlh.io and we'll add it!_
