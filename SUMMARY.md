@@ -19,3 +19,7 @@
 * [MongoDB](partner-details/mongodb.md)
 * [Snowflake](partner-details/snowflake.md)
 * [GitHub](partner-details/github.md)
+
+***
+
+* [Opening Ceremony Guide](opening-ceremony-guide.md)
