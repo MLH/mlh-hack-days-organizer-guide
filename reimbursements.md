@@ -4,7 +4,7 @@ Every Hack Day is eligible to receive reimbursements based on the number of hack
 
 To be eligible for reimbursement, you must keep your full itemized receipts of any purchases. You will be invited to submit your receipts on Ramp (the financial platform MLH uses).
 
-We offer different reimbursement rates depending on the country in which the Hack Day is organized (see the table below). We use purchasing power parity to calculate a comparable amount of funding in each country. We list reimbursement amounts in USD here. Your reimbursements may be in either USD or your local currency, depending on your banking details and preferences in Ramp.
+We offer different reimbursement rates depending on the country in which the Hack Day is organized (see the table below). We use purchasing power parity to calculate a comparable amount of funding in each country. We list reimbursement amounts in USD here. Your reimbursements may be in either USD or your local currency, depending on your banking details and preferences in Ramp. The typical timeline for reimbursement is 30 days from submitting receipts, although it can take a few weeks more or less depending on individual circumstances.
 
 Food, snacks, and (non-alcoholic) beverages are always reimbursable. Other event expenses may be reimbursable. Please email us at hackdays@mlh.io to double-check ahead of time. Exorbitant costs of any type (typically prizes or swag) may be rejected.
 
