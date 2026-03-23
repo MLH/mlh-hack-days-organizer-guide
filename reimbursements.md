@@ -1,6 +1,6 @@
 # Reimbursements
 
-Every Hack Day is eligible to receive reimbursements based on the number of hackers who check into the event. For events in the US, we reimburse up to 7 USD per hacker who checks in, with a maximum of 50 hackers (350 USD total). You must check in hackers through your OHQ event portal, so please reach out to hackdays@mlh.io if you are experiencing any trouble registering or checking in participants through the portal.
+Every Hack Day is eligible to receive reimbursements based on the number of hackers who check into the event. For events in the US, we reimburse up to 7 USD per hacker who checks in, with a maximum of 50 hackers (350 USD total). You must check in hackers through your OHQ event portal, so please reach out to hackdays@mlh.io if you are experiencing any trouble registering or checking in participants through the portal. To collect project submissions and announce winners, you must use the Devpost platform.
 
 To be eligible for reimbursement, you must keep your full itemized receipts of any purchases. You will be invited to submit your receipts on Ramp (the financial platform MLH uses).
 
