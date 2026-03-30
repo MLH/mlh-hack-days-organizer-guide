@@ -16,9 +16,9 @@
 ## Partner Details
 
 * [Google Gemini](partner-details/google-gemini.md)
-* [MongoDB](partner-details/mongodb.md)
+* [Google Build with AI](partner-details/google-build-with-ai.md)
 * [Snowflake](partner-details/snowflake.md)
-* [GitHub](partner-details/github.md)
+* [GitHub Copilot](partner-details/github.md)
 
 ***
 
