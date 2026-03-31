@@ -8,6 +8,7 @@
   * [Project Submissions and Judging](event-planning-guide/project-submissions-and-judging.md)
   * [Photography](event-planning-guide/photography.md)
   * [Hack Day Guide for School Administrators](event-planning-guide/hack-day-guide-for-school-administrators.md)
+  * [Opening Ceremony Guide](event-planning-guide/opening-ceremony-guide.md)
 * [OrganizerHQ Tutorial](organizerhq-tutorial.md)
 * [Devpost for Hack Days](devpost-for-hack-days.md)
 * [Swag](swag.md)
@@ -15,11 +16,8 @@
 
 ## Partner Details
 
-* [Google Gemini](partner-details/google-gemini.md)
-* [Google Build with AI](partner-details/google-build-with-ai.md)
-* [Snowflake](partner-details/snowflake.md)
-* [GitHub Copilot](partner-details/github.md)
-
-***
-
-* [Opening Ceremony Guide](opening-ceremony-guide.md)
+* [Partner Details](partner-details/partner-details/README.md)
+  * [Google Gemini](partner-details/partner-details/google-gemini.md)
+  * [Google Build with AI](partner-details/partner-details/google-build-with-ai.md)
+  * [Snowflake](partner-details/partner-details/snowflake.md)
+  * [GitHub Copilot](partner-details/partner-details/github.md)
