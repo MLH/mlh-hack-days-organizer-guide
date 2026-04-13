@@ -9,7 +9,7 @@ description: >-
 
 ### Where do I apply?
 
-You apply through OrganizerHQ. Here's a direct link: [organize.mlh.io/host/google-gemini-hack-days](https://organize.mlh.io/host/google-gemini-hack-days)
+You apply through OrganizerHQ. Here's a direct link: [https://organize.mlh.io/host/hack-days](https://organize.mlh.io/host/hack-days)
 
 ### When should I apply?
 
@@ -17,7 +17,7 @@ You can apply to host a Hack Day at the idea/concept stage! We welcome events at
 
 ### What if my event is 24 hours long?
 
-Hack Days are currently geared for events that are 12 hours or less. If you're planning a longer hackathon, it might make more sense to apply for full [MLH Event Membership](https://mlh.link/member-event-application). Email us at league@mlh.io or hackdays@mlh.io if you need help!&#x20;
+Hack Days are currently geared for events that are 12 hours or less. If you're planning a longer hackathon, it might make more sense to apply for full [MLH Event Membership](https://mlh.link/member-event-application). Email us at league@mlh.io or hackdays@mlh.io if you need help!
 
 ### Can my event be held digitally?
 
@@ -25,7 +25,7 @@ At this time, we are only supporting Hack Days that are hosted in person. We rec
 
 ### What can I spend my funding on?
 
-In general, you should spend the funding on meals, snacks, and beverages for the event. See Reimbursements for more thorough guidelines.&#x20;
+In general, you should spend the funding on meals, snacks, and beverages for the event. See Reimbursements for more thorough guidelines.
 
 ### If registration is already open for my event, do I still need to use MLH's OrganizerHQ platform?
 
@@ -33,7 +33,7 @@ We will work with events on a case-by-case basis. Start an application and send 
 
 ### How many people should I target for my event?
 
-The more the merrier! Remember that we're only able to reimburse Hack Days for up to a maximum of 50 checked-in hackers.&#x20;
+The more the merrier! Remember that we're only able to reimburse Hack Days for up to a maximum of 50 checked-in hackers.
 
 ### Will I get help putting on my event?
 

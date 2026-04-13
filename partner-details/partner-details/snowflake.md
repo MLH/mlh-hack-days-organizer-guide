@@ -3,7 +3,7 @@
 We're looking for \~5 organizers in the US to help us pilot a special new version of Hack Days with Snowflake. If you're interested in alpha testing this program with us, please start a Snowflake Hack Day application below!
 
 {% hint style="info" %}
-**Start Your Application:** [**https://organize.mlh.io/host/snowflake-hack-days**](https://organize.mlh.io/host/mongodb-hack-days)
+**Start Your Application:** [https://organize.mlh.io/host/hack-days](https://organize.mlh.io/host/hack-days)
 {% endhint %}
 
 As part of hosting a Hack Day, you'll run a Best Use of Snowflake prize category. Here's a description of the prize, which should be added to your Devpost page:
