@@ -1,6 +1,6 @@
 # Google Build with AI
 
-Major League Hacking (MLH) and Google have teamed up to help you host a Build with AI Hack Days. Google has tons of awesome AI-powered tools for hackers to leverage during your event. We encourage hackers to use Google AI Studio, Google Antigravity, Gemini CLI, and the Google Gemini APIs to build an awesome back, then deploy it on Google Cloud.&#x20;
+Major League Hacking (MLH) and Google have teamed up to help you host a Build with AI Hack Days. Google has tons of awesome AI-powered tools for hackers to leverage during your event. We encourage hackers to use Google AI Studio, Google Antigravity, Gemini CLI, and the Google Gemini APIs to build an awesome hack, then deploy it on Google Cloud.&#x20;
 
 As an organizer, you'll have the opportunity to attend a workshop with the MLH and Google teams where you'll learn how to host an amazing Hack Day:
 
