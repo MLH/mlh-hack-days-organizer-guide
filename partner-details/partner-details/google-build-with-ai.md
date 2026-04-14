@@ -18,7 +18,7 @@ RSVP to either of the workshop sessions here!
 **Start Your Application:** [https://organize.mlh.io/host/hack-days](https://organize.mlh.io/host/hack-days)
 {% endhint %}
 
-As part of hosting a Hack Day, you'll run a "Best Use of Google Gemini" and "Best Hack Deployed on Google Cloud" prize category. Here are descriptions for each category. You should add these to your event's Devpost page.&#x20;
+As part of hosting a Build with AI Hack Day, you'll run a "Best Use of Google Gemini" and "Best App Deployed on Google Cloud" prize category. You'll find descriptions of each category below. You should add these to your event's Devpost page.&#x20;
 
 ### Best Use of Gemini API
 
