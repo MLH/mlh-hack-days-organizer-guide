@@ -14,6 +14,10 @@ RSVP to either of the workshop sessions here!
 * Tuesday April 14th at 9am ET - [Register Here](https://gdg.community.dev/events/details/google-google-developer-community-online-presents-host-awesome-hackathons-with-major-league-hacking-1/).&#x20;
 * Thursday April 16th at 2pm ET - [Register Here](https://gdg.community.dev/events/details/google-google-developer-community-online-presents-host-awesome-hackathons-with-major-league-hacking/).
 
+{% hint style="info" %}
+**Start Your Application:** [https://organize.mlh.io/host/hack-days](https://organize.mlh.io/host/hack-days)
+{% endhint %}
+
 As part of hosting a Hack Day, you'll run a "Best Use of Google Gemini" and "Best Hack Deployed on Google Cloud" prize category. Here are descriptions for each category. You should add these to your event's Devpost page.&#x20;
 
 ### Best Use of Gemini API
