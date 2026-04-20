@@ -10,7 +10,7 @@
   * [Hack Day Guide for School Administrators](event-planning-guide/hack-day-guide-for-school-administrators.md)
   * [Opening Ceremony Guide](event-planning-guide/opening-ceremony-guide.md)
 * [OrganizerHQ Tutorial](organizerhq-tutorial.md)
-* [Project Submissions at Hack Days](devpost-for-hack-days.md)
+* [Project Submissions at Hack Days](project-submissions.md)
 * [Swag](swag.md)
 * [Reimbursements](reimbursements.md)
 
