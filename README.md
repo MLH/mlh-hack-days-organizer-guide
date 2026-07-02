@@ -16,9 +16,9 @@ Here's the high-level overview of the steps. Make sure to check out the complete
 
 1. **Apply to host a Hack Day.** You can do this right now. It just takes a few minutes.
 2. **Secure a venue.** Wherever your club or community typically meets is fine. This can be as simple as a room reservation at the library.
-3. **No Website Required.** Attendee registration is entirely through MLH's OrganizerHQ platform. Once your application is approved, start collecting registrations for the event.
-4. **Receive Swag.** As your Hack Day nears, we will ship you a physical swag pack for your attendees. This will include prizes, stickers, and swag.
+3. **No Website Required.** Attendee registration and project submission is entirely through MLH's OrganizerHQ platform. Once your application is approved, start collecting registrations for the event. Then, manage team submissions seamlessly through the same platform.
+4. **Receive Swag.** As your Hack Day nears, we will ship you a physical swag pack for your attendees. This will include prizes, stickers, and swag (note: some prizes may be digital).
 5. **Order Food and Snacks.** We recommend planning ahead, but ordering once you have a confirmed count of hackers.
-6. **Get Reimbursed.** We'll reimburse you up to 350 USD for food, snacks, and other event expenses. For each hacker who checks into your event, you receive 7 USD.
+6. **Get Reimbursed.** We'll reimburse you up to 350 USD\* for food, snacks, and other event expenses. For each hacker who checks into your event, you receive 7 USD\*.
    1. _We can only reimburse you for the money you spent on the event._
-   2. _If you're outside the US, the amount we reimburse changes. See Reimbursements for more info._
+   2. _\*If you're outside the US, the amount we reimburse changes. See Reimbursements for more info._

@@ -13,7 +13,7 @@ You apply through OrganizerHQ. Here's a direct link: [https://organize.mlh.io/ho
 
 ### When should I apply?
 
-You can apply to host a Hack Day at the idea/concept stage! We welcome events at all different stages of planning. Our team will help you host a fantastic Hack Day regardless of how far into the planning process you are.
+You can apply to host a Hack Day at the idea/concept stage! We welcome events at all different stages of planning. Our team will help you host a fantastic Hack Day regardless of how far into the planning process you are. We recommend applying at least 3-4 weeks ahead of your planned start date to give us time to process the application.
 
 ### What if my event is 24 hours long?
 
@@ -21,11 +21,11 @@ Hack Days are currently geared for events that are 12 hours or less. If you're p
 
 ### Can my event be held digitally?
 
-At this time, we are only supporting Hack Days that are hosted in person. We recommend hosting your Hack Day in venues such as classrooms, lecture halls, libraries, and coworking spaces to avoid booking fees.
+At this time, we are only supporting Hack Days that are hosted entirely in person. This means that no part of the event may be conducted virtually other than registration and check-in. For example, pre-event virtual rounds and hybrid participation options are both prohibited and may risk denial of reimbursement funding and jeopardize approval for future Hack Days events. We recommend hosting your Hack Day in venues such as classrooms, lecture halls, libraries, and coworking spaces to avoid booking fees. Local governments, non-profits, and even businesses are often happy to lend their spaces for educational initiatives such as a Hack Day.
 
 ### What can I spend my funding on?
 
-In general, you should spend the funding on meals, snacks, and beverages for the event. See Reimbursements for more thorough guidelines.
+In general, you should spend the funding on meals, snacks, and beverages for the event. See Reimbursements for more thorough guidelines. If you are unsure of whether an expense would be covered under our policy, don't hesitate to ask us via email (hackdays@mlh.io).
 
 ### If registration is already open for my event, do I still need to use MLH's OrganizerHQ platform?
 

@@ -1,12 +1,12 @@
 # Google Gemini
 
-Google supports Major League Hacking and our Hack Days program. Google has tons of awesome AI-powered tools for hackers to leverage during your event, but we specifically encourage hackers to explore Google AI Studio, Google Antigravity, and the Google Gemini APIs.
+Google supports Major League Hacking and our Hack Days program. Google has tons of awesome AI-powered tools for hackers to leverage during your event, but we specifically encourage hackers to explore Google AI Studio, Google Antigravity, and the Google Gemini APIs. We are unable to offer usage credits for Gemini models but are happy to help you explore free and low-cost options for your participants that are highly effective for building Hack Days projects.
 
 {% hint style="info" %}
 **Start Your Application:** [https://organize.mlh.io/host/hack-days](https://organize.mlh.io/host/hack-days)
 {% endhint %}
 
-As part of hosting a Hack Day, you'll run a Best Use of Google Gemini prize category. Here's a description of the prize, which should be added to your Devpost page:
+As part of hosting a Hack Day, you'll run a Best Use of Google Gemini prize category. Here's a description of the prize, which should be added to your OHQ page:
 
 ### Best Use of Gemini API
 

@@ -6,7 +6,7 @@ description: >-
 
 # Event Planning Guide
 
-If you've completed all the steps below, you are ready for your event!&#x20;
+If you've completed all the steps below, you are ready for your event!
 
 ### 🏫 Reserving a Venue
 
@@ -22,11 +22,11 @@ If you've completed all the steps below, you are ready for your event!&#x20;
 * Make sure either you or your vendor is bringing plates, utensils, and napkins if you're providing food. You may be able to grab some of these things from your university or school's dining hall.
 * If you're not providing beverages at your event, we recommend encouraging folks in your pre-event email to bring a refillable water bottle.
 * Keep in mind that MLH only covers reimbursements for people who attend the event. Make sure not to over-order!
-  * Example: I have 60 people registered, but I expect only 50% to show up, so I need to order pizza for 30 people. I expect people to eat two slices each, and each pizza has eight slices. I need at least 60 slices (30 people x 2 slices each), so I'll order eight pizzas for 64 slices.&#x20;
+  * Example: I have 60 people registered, but I expect only 50% to show up, so I need to order pizza for 30 people. I expect people to eat two slices each, and each pizza has eight slices. I need at least 60 slices (30 people x 2 slices each), so I'll order eight pizzas for 64 slices.
 
 ### 💻 Update your Registration Page
 
-* Make sure you are providing the following key information:&#x20;
+* Make sure you are providing the following key information:
   * event start & end time
   * event location (be specific!)
   * contact email for questions
@@ -47,9 +47,9 @@ If you've completed all the steps below, you are ready for your event!&#x20;
   * [ ] Use Major League Hacking's Event Platform (OrganizerHQ) to collect registrations and check-ins.
   * [ ] Distribute the swag and promotional materials that have been shipped to your team.
   * [ ] Play a 2-5 minute recorded presentation (provided by us) at your event.
-  * [ ] Collect project submissions on a platform like Devpost.&#x20;
+  * [ ] Collect project submissions on a platform like Devpost.
 * [ ] Post-event, you must provide the following to Major League Hacking;
   * [ ] Event photos
   * [ ] Event summary
-  * [ ] Project submission data (if on Devpost, we can grab this ourselves!)
+  * [ ] Project submission data&#x20;
   * [ ] Receipts for all purchases

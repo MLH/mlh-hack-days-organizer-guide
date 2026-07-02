@@ -10,7 +10,14 @@ We've put together a slide deck for your Hack Day opening ceremony. It includes 
 
 #### Step 1: Make a Copy
 
-Open the [Opening Ceremony slide deck](https://docs.google.com/presentation/d/1saLwo2l3d9iSHzMwHRZGqthQjAyj-LtlkFD2QIidF_o/edit) and go to **File → Make a copy**. All of your edits should happen in your copy — don't edit the original.
+Open the Opening Ceremony slide deck corresponding to your event:
+
+* [Google Build w/ AI](https://mlh.link/hackdays-build-slides)
+* [Google Gemini](http://mlh.link/hackdays-gemini-slides)
+* [Snowflake](https://mlh.link/hackdays-snowflake-slides)
+* [GitHub](https://mlh.link/hackdays-github-slides)
+
+and go to **File → Make a copy**. All of your edits should happen in your copy — don't edit the original.
 
 #### Step 2: Update Your Event Info
 
