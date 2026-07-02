@@ -12,5 +12,5 @@ You should expect to receive the following items:
 * [ ] MLH Season Stickers
 * [ ] Hack Day I Demoed Stickers (Give these out to hackers who show off their projects!)
 * [ ] Prizes for your top team
-  * [ ] In some cases, we may award digital gift cards to your winning team post-event instead.
+  * [ ] We may award digital gift cards to your winning team post-event instead of physical prizes.
 * [ ] Swag from MLH's Partners
