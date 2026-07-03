@@ -12,7 +12,6 @@ We've put together a slide deck for your Hack Day opening ceremony. It includes 
 
 Open the Opening Ceremony slide deck corresponding to your event:
 
-* [Google Build w/ AI](https://mlh.link/hackdays-build-slides)
 * [Google Gemini](http://mlh.link/hackdays-gemini-slides)
 * [Snowflake](https://mlh.link/hackdays-snowflake-slides)
 * [GitHub](https://mlh.link/hackdays-github-slides)
