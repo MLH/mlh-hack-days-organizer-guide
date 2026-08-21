@@ -4,8 +4,6 @@ description: Challenge guidance, participant resources, opening materials, and j
 
 # Snowflake
 
-**Status:** Active full partner
-
 **Last reviewed:** August 2026
 
 Snowflake supports Major League Hacking and the Hack Days program with a platform that brings data, applications, and AI capabilities together. Hackers can use its APIs and AI tools to add intelligent features to their projects without managing a collection of separate services.

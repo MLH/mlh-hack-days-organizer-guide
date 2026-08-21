@@ -13,11 +13,11 @@ Keep the opening focused. In most Hack Days, 15–20 minutes is enough to welcom
 Use the opening ceremony material for the partner assigned to your event:
 
 * [Google Gemini](https://mlh.link/hackdays-gemini-slides)
-* **Google Gemma:** Opening ceremony slides are to be confirmed. Use the material included in your event approval or onboarding packet.
+* **Google Gemma:** Use the opening ceremony materials included in your event onboarding.
 * [GitHub Copilot](https://mlh.link/hackdays-github-slides)
 * [Snowflake](https://mlh.link/hackdays-snowflake-slides)
-* **Cloudflare:** Opening ceremony slides are to be confirmed.
-* **Solana:** Opening ceremony slides are to be confirmed.
+* **Cloudflare:** Use the opening ceremony materials included in your event onboarding.
+* **Solana:** Use the opening ceremony materials included in your event onboarding.
 
 Make a copy of the deck and edit only the organizer-controlled slides. The slide numbers may change; use the slide titles and placeholders to identify what to update.
 
@@ -41,7 +41,7 @@ Replace the deck placeholders with:
 * Organizer names, photos, and organization
 * The complete event schedule
 * Food, venue, and accessibility information
-* The approved community channel
+* Any event community or support channel attendees should use
 * The event's **Challenges** page and project submission QR code
 * The approved partner categories and prize descriptions
 

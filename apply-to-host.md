@@ -52,7 +52,7 @@ Your approval or onboarding information will confirm:
 * The opening ceremony materials for your event
 
 {% hint style="info" %}
-Wait for MLH to confirm your event, assigned partner categories, and prize expectations before including them in event promotions. Assigned partner challenges are added by MLH and will appear automatically on the event's Challenges page.
+Wait for approval before advertising MLH affiliation, an assigned partner category, or a prize. MLH adds assigned partner challenges, which will appear automatically on the event's **Challenges** page.
 {% endhint %}
 
 Continue to [OrganizerHQ](organizerhq-tutorial.md) to check the event page and open registration.

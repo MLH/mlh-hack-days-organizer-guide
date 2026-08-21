@@ -4,8 +4,6 @@ description: Challenge guidance, participant resources, opening materials, and j
 
 # Solana
 
-**Status:** Active
-
 **Last reviewed:** August 2026
 
 Solana supports Major League Hacking and the Hack Days program with a fast, efficient development layer for applications. Its documentation, tutorials, and templates help hackers get started quickly while Solana provides the backend for what they build.
@@ -33,7 +31,7 @@ For hackers who are new to Solana, recommend starting with the documentation, fo
 
 ## Opening Ceremony
 
-Opening ceremony slides are to be confirmed. Use the material included in your event approval or onboarding packet.
+Use the opening ceremony materials included in your event onboarding.
 
 ## Judging Evidence
 
