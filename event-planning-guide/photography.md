@@ -1,29 +1,54 @@
-# Photography
+---
+description: Submit useful, consent-aware event photos and complete the Hack Day event summary.
+---
 
-If you can take photos/videos of your event, we'd love to see them. Photos really help us ensure we have funding to support additional events like yours.
+# Photos and Event Summary
 
-### Things to Highlight:
+Assign one organizer to own event closeout before the Hack Day begins. That person should collect the photos, confirm OrganizerHQ records, and submit the event summary using the link or workflow in the event's onboarding materials.
 
-There are several opportunities for photos at the event:
+## Before Taking Photos
 
-* Photos of hackers visibly collaborating: Candid pictures of hackers working together.
-* Hackathon branding is important: We love to see the personal flair that each hackathon has! This is your opportunity to showcase the theme of your hackathon (if there is one) along with your swag, signage, and branding.
-* Anything that makes the hackathon unique: Some hackathons have animals, salsa dancing, coffee-making lessons, etc. These are all fun additions to showcase at the hackathon.
-* Hackers laughing or smiling together: Hackathons are fun! Be sure to highlight that.&#x20;
-* Switch it up: We like to have a good mix of photos to summarize a hackathon weekend. Try to get some candid work photos, like people hanging out, friends posing for a group shot, etc.&#x20;
-* Opening Ceremony / Closing Ceremony: Try to get a photo of each speaker/group at the closing ceremony, particularly the teams demoing their apps and the winning teams.
-* Mini-Events:  If you're hosting any mini-events, these can be an excellent opportunity to get unique photos.
-* Branding: Please get at least a few photos of Major League Hacking (MLH) branding and swag in the context of the larger event. Please also do the same for the sponsors that are present at your event.&#x20;
-* Underrepresented Groups: We believe that showcasing a diverse group of people at our events is a key way to make newcomers feel welcome. Please attempt to get some photos highlighting women & minorities’ participation in the event.
-* Light: Hackathons are typically indoor, poorly-lit events. Do your best to account for and be aware of this constraint!
+Follow the venue's consent, privacy, and guardian-permission requirements. Identify attendees who do not consent to photography and make that status easy for the photographer to respect.
 
-### What to Avoid:
+Do not publish attendee names alongside images without the appropriate permission. Avoid photographing laptop screens, badges, or documents that expose personal information.
 
-Certain things do not look good in photos. Here are a few examples below.
+## What to Capture
 
-* Food: Hacker workstations with empty wrappers, drinks, and half-eaten slices of pizza often appear messy in photos.
-  * This does not apply to organizers and volunteers serving food for breakfast, lunch, and dinner. We love to see people working together!
-* Photos of people with their shoes off: We may use these photos on our website, branding materials, etc., so the cleaner the environment in the pictures, the better.
-* Close-up headshots: We do not need close-up individual photos of people smiling. We want to really showcase what the hackers are working on.
-* Filters:  It’s preferred that you do not use software filters on the photos you take.
-* Sleeping: DO NOT take photos of sleeping participants.
+Take a small, varied set of useful photos rather than hundreds of similar images:
+
+* **Collaboration.** Teams brainstorming, building, and helping one another
+* **Projects and demos.** Hackers presenting what they built, including hardware when appropriate
+* **Opening and closing.** Speakers, the event setup, winning teams, and the group photo
+* **Community.** Images that show the venue, participation, and energy of the event
+* **MLH and partner presence.** Signage, slides, swag, and partner materials in context
+
+## What to Avoid
+
+* People who did not consent to photography
+* Messy workstations dominated by food wrappers or waste
+* Close-up headshots that do not show the event context
+* Participants sleeping or otherwise appearing uncomfortable
+* Heavy filters, watermarks, or effects
+* Screens or documents containing private attendee information
+
+## Complete the Event Summary
+
+Use the event-summary link or workflow provided in OrganizerHQ or your onboarding materials. Be ready to report:
+
+* Checked-in attendance
+* Number of submitted projects
+* Partner categories and confirmed winners
+* A concise description of what happened
+* Highlights, challenges, and organizer feedback
+* Links or uploads for the requested event photos
+
+Submit the summary by the deadline in your onboarding materials. If you cannot find the form or deadline, email [hackdays@mlh.io](mailto:hackdays@mlh.io) immediately after the event.
+
+## Closeout Check
+
+* [ ] Every attendee check-in is complete in OrganizerHQ.
+* [ ] Every presenting team submitted a project.
+* [ ] Every MLH partner winner is confirmed in OrganizerHQ.
+* [ ] Photos follow the event's consent requirements.
+* [ ] The event summary has been submitted.
+* [ ] Itemized receipts have been passed to the reimbursement owner.

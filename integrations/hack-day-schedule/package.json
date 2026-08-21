@@ -1,0 +1,21 @@
+{
+  "name": "@mlh/hack-day-schedule-gitbook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:assets": "node scripts/embed-assets.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.mjs",
+    "check:gitbook": "gitbook integration check .",
+    "check": "npm run prepare:assets && npm run typecheck && npm run test && npm run check:gitbook"
+  },
+  "dependencies": {
+    "@gitbook/runtime": "0.23.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240925.0",
+    "@gitbook/cli": "0.31.1",
+    "typescript": "^5.9.2"
+  }
+}

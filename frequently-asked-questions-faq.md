@@ -1,52 +1,81 @@
 ---
-description: >-
-  These are some of the most frequently asked questions about hosting a Hack
-  Day. If your question isn't listed here, feel free to email us at
-  hackdays@mlh.io.
+description: Resolve Hack Day edge cases and contact the MLH team when your approval is unclear.
 ---
 
-# Frequently Asked Questions (FAQ)
+# Frequently Asked Questions and Contact
 
-### Where do I apply?
+Start with [Requirements and Eligibility](requirements-and-eligibility.md) for the canonical program rules. This page covers common exceptions and edge cases.
 
-You apply through OrganizerHQ. Here's a direct link: [https://organize.mlh.io/host/hack-days](https://organize.mlh.io/host/hack-days)
+For general advice about organizing teams, sponsorship, marketing, venues, or full-scale hackathon operations, use the [MLH Hackathon Organizer Guide](https://guide.mlh.com/). For questions about a specific Hack Day approval, email [hackdays@mlh.io](mailto:hackdays@mlh.io).
 
-### When should I apply?
+## Format and Eligibility
 
-You can apply to host a Hack Day at the idea/concept stage! We welcome events at all different stages of planning. Our team will help you host a fantastic Hack Day regardless of how far into the planning process you are. We recommend applying at least 3-4 weeks ahead of your planned start date to give us time to process the application.
+### Can Registration or Check-in Happen Online?
 
-### What if my event is 24 hours long?
+Registration, event communications, and administrative work may happen online. Check-in may not happen online or in advance: organizers must check in each attendee through OrganizerHQ while they are physically present at the venue. The rest of the event—including building, mentorship, demos, judging, and closing—must also take place entirely in person.
 
-Hack Days are currently geared for events that are 12 hours or less. If you're planning a longer hackathon, it might make more sense to apply for full [MLH Event Membership](https://mlh.link/member-event-application). Email us at league@mlh.io or hackdays@mlh.io if you need help!
+### What If I Want to Run Longer Than 12 Hours?
 
-### Can my event be held digitally?
+A Hack Day may not exceed 12 hours. Apply for [MLH Event Membership](https://mlh.link/member-event-application) if you are planning a longer hackathon.
 
-At this time, we are only supporting Hack Days that are hosted entirely in person. This means that no part of the event may be conducted virtually other than registration and check-in. For example, pre-event virtual rounds and hybrid participation options are both prohibited and may risk denial of reimbursement funding and jeopardize approval for future Hack Days events. We recommend hosting your Hack Day in venues such as classrooms, lecture halls, libraries, and coworking spaces to avoid booking fees. Local governments, non-profits, and even businesses are often happy to lend their spaces for educational initiatives such as a Hack Day.
+### Can More Than 50 People Attend?
 
-### What can I spend my funding on?
+Yes, if your venue and organizing team can safely support them. Reimbursement is capped at 50 verified OrganizerHQ check-ins even if more people attend.
 
-In general, you should spend the funding on meals, snacks, and beverages for the event. See Reimbursements for more thorough guidelines. If you are unsure of whether an expense would be covered under our policy, don't hesitate to ask us via email (hackdays@mlh.io).
+### Who Can Participate?
 
-### If registration is already open for my event, do I still need to use MLH's OrganizerHQ platform?
+Hack Days can welcome professionals, students, and other community members unless the event approval or assigned partner specifies a narrower audience. Review the [partner eligibility matrix](requirements-and-eligibility.md#partner-eligibility) before advertising an audience.
 
-We will work with events on a case-by-case basis. Start an application and send us an email.
+### Does the Event Need a Theme?
 
-### How many people should I target for my event?
+No. You may choose a theme for your community and add local categories. Your approval or onboarding materials will identify the MLH partner category assigned to your event; share that category with attendees in advance and present it during the opening ceremony.
 
-The more the merrier! Remember that we're only able to reimburse Hack Days for up to a maximum of 50 checked-in hackers.
+## Applications and Registration
 
-### Will I get help putting on my event?
+### What If Registration Is Already Open Somewhere Else?
 
-Yes! Our goal is to make hosting a Hack Day simple. We want anyone to be able to bring their community together, regardless of whether you have prior organizing experience or not.
+[Submit a Hack Day application](apply-to-host.md) and email [hackdays@mlh.io](mailto:hackdays@mlh.io). The MLH team will review the existing registration setup and tell you how to proceed. Do not assume an external registration page replaces OrganizerHQ.
 
-### **Is this only for students?**
+### Can I Advertise a Preferred Partner While My Application Is Pending?
 
-Not at all! Hack Days are open to everyone, including professionals / non-students!
+No. A partner preference is not an assignment. Wait for approval before advertising MLH, a partner category, or a prize format.
 
-### **Does my Hack Day need to have a specific theme?**
+## Projects and Judging
 
-Nope! Your event can have any theme you like. We provide an opt-in prize for our partners at your event, like “Best Use of Google Gemini,” but you’re welcome to add your own themes and prizes.
+### Do I Need to Create the MLH Partner Challenge?
 
-### Who should I contact with further questions?
+No. MLH assigns the partner challenge and it appears automatically on the event's Challenges page and project submission form. Organizers may add a separate local category by following [Confirm the Event Challenges](organizerhq-tutorial.md#confirm-the-event-challenges).
 
-Please send us an email at hackdays@mlh.io!
+### Does Every Project Need to Be in OrganizerHQ?
+
+Every team presenting a project must submit it through OrganizerHQ. Teams must additionally select each eligible partner challenge they are entering.
+
+### Can We Also Use Devpost or a Judging Spreadsheet?
+
+You may use an external tool as an optional judging aid. It does not replace the required OrganizerHQ project submissions, challenge selections, check-ins, or winner declarations.
+
+### What If a Team Misses the Submission Deadline?
+
+Do not silently judge a project that is missing from the required submission list. Pause, ask the team to complete the OrganizerHQ submission if the event schedule permits, and apply the same deadline policy to every team.
+
+### What If No Project Is Eligible for a Partner Category?
+
+Do not declare an ineligible project simply to fill the category. Document the issue and contact [hackdays@mlh.io](mailto:hackdays@mlh.io) before announcing a result.
+
+## Funding and Prizes
+
+### Can We Spend the Full Allowance Regardless of Attendance?
+
+No. The maximum reimbursement is based on verified OrganizerHQ check-ins, capped at 50 hackers, and MLH cannot reimburse more than the approved, itemized amount actually spent. See [Receipts and Reimbursement](reimbursements.md).
+
+### Will Winners Receive Physical Prizes?
+
+Not always. Depending on availability and onboarding instructions, winners may receive digital gift cards instead. Do not promise a format until MLH confirms it for the event.
+
+### What If a Prize or Reimbursement Is Delayed?
+
+Email [hackdays@mlh.io](mailto:hackdays@mlh.io) with the event name and the relevant project, category, reimbursement, or fulfillment details. Do not send unnecessary attendee financial or identity information by email.
+
+## Contact
+
+Email the Hack Days team at [hackdays@mlh.io](mailto:hackdays@mlh.io). Include the OrganizerHQ event name and a concise description of the issue. For urgent safety or Code of Conduct incidents, use the reporting information in the [MLH Code of Conduct](https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md).

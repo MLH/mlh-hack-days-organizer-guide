@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Hack Day schedule generator</title>
+    <style>
+      :root {
+        --blue: #265a8f;
+        --blue-deep: #1e4874;
+        --blue-soft: #eef5fb;
+        --ink: #1c1d1e;
+        --muted: #6f7378;
+        --line: #e1e7ec;
+        --surface: #f7f9fb;
+        --warning: #9d6510;
+        --warning-bg: #fff8e8;
+      }
+
+      * { box-sizing: border-box; }
+
+      html { background: transparent; }
+
+      body {
+        margin: 0;
+        padding: 2px;
+        color: var(--ink);
+        background: transparent;
+        font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      button, input, select { font: inherit; }
+
+      .generator {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: #fff;
+        box-shadow: 0 8px 24px rgb(31 65 94 / 7%);
+      }
+
+      .generator-header {
+        padding: 22px 24px 20px;
+        color: #fff;
+        background:
+          radial-gradient(circle at 88% 15%, rgb(255 255 255 / 13%) 0 5px, transparent 6px),
+          radial-gradient(circle at 94% 36%, rgb(255 255 255 / 9%) 0 3px, transparent 4px),
+          linear-gradient(135deg, var(--blue-deep), var(--blue));
+      }
+
+      .eyebrow {
+        margin: 0 0 7px;
+        color: rgb(255 255 255 / 75%);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      h2 { margin: 0; font-size: 24px; line-height: 1.2; letter-spacing: -.025em; }
+      .generator-header p:last-child { max-width: 570px; margin: 8px 0 0; color: rgb(255 255 255 / 82%); }
+
+      .controls { padding: 22px 24px; border-bottom: 1px solid var(--line); }
+      .control-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+      .field { display: flex; flex-direction: column; min-width: 0; }
+      .field.duration-field { grid-column: 1 / -1; }
+      fieldset.field { min-inline-size: 0; margin: 0; padding: 0; border: 0; }
+      .field-label { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 7px; color: #3b4650; font-size: 12px; font-weight: 700; }
+      legend.field-label { width: 100%; padding: 0; }
+      .field-label small { color: var(--muted); font-size: 10px; font-weight: 600; }
+      output { color: var(--blue); }
+
+      input[type="number"], select {
+        width: 100%; height: 42px; padding: 0 11px; color: var(--ink); background: #fff;
+        border: 1px solid #ccd5dc; border-radius: 8px; outline: none;
+      }
+      select { min-width: 0; padding-right: 28px; }
+      input[type="number"]:focus, select:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgb(38 90 143 / 12%); }
+      input[type="range"] { width: 100%; height: 42px; margin: 0; accent-color: var(--blue); cursor: pointer; }
+
+      .time-picker { display: grid; grid-template-columns: minmax(62px, .9fr) minmax(68px, 1fr) minmax(78px, 1.15fr); gap: 7px; }
+
+      .toggles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
+      .toggle {
+        display: flex; align-items: flex-start; gap: 10px; padding: 11px 12px; color: #3f4952;
+        background: var(--surface); border: 1px solid transparent; border-radius: 9px; cursor: pointer;
+      }
+      .toggle:hover { border-color: #d5e0e9; }
+      .toggle input { flex: 0 0 auto; width: 17px; height: 17px; margin: 2px 0 0; accent-color: var(--blue); }
+      .toggle strong { display: block; color: var(--ink); font-size: 13px; }
+      .toggle small { display: block; margin-top: 1px; color: var(--muted); font-size: 11px; }
+
+      .result { padding: 22px 24px 24px; }
+      .result-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 18px; margin-bottom: 15px; }
+      .result-heading h3 { margin: 0; font-size: 18px; letter-spacing: -.015em; }
+      .schedule-meta { display: flex; flex-direction: column; align-items: flex-end; color: var(--muted); font-size: 11px; }
+      .schedule-meta strong { color: var(--blue); font-size: 14px; }
+
+      .warning { margin: 0 0 14px; padding: 11px 13px; color: #6d4b15; background: var(--warning-bg); border: 1px solid #f0ddb4; border-radius: 9px; font-size: 12px; }
+      .warning p { margin: 0; }
+      .warning p + p { margin-top: 7px; }
+      .warning a { color: #6d4b15; font-weight: 700; text-underline-offset: 2px; }
+      .warning a:hover { color: #432e0d; }
+
+      .schedule { margin: 0; padding: 0; list-style: none; }
+      .schedule-row { display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 14px; position: relative; padding: 0 0 17px; }
+      .schedule-row:last-child { padding-bottom: 0; }
+      .schedule-row::before { position: absolute; top: 21px; bottom: 0; left: 5px; width: 1px; background: #dbe5ed; content: ""; }
+      .schedule-row:last-child::before { display: none; }
+      .schedule-row::after { position: absolute; top: 7px; left: 1px; width: 9px; height: 9px; background: #fff; border: 2px solid var(--blue); border-radius: 50%; content: ""; }
+      .schedule-row time { padding-left: 18px; color: #314b63; font-size: 12px; font-weight: 700; line-height: 1.35; white-space: nowrap; }
+      .schedule-row time span { display: block; color: #88929a; font-weight: 500; }
+      .schedule-row strong { display: block; color: var(--ink); font-size: 13px; line-height: 1.35; }
+      .schedule-row p { margin: 3px 0 0; color: var(--muted); font-size: 11px; line-height: 1.45; }
+
+      .concurrent-item { margin-top: 9px; padding: 9px 10px; background: var(--blue-soft); border-left: 3px solid var(--blue); border-radius: 7px; }
+      .concurrent-item > span { display: block; margin-bottom: 2px; color: var(--blue); font-size: 9px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+      .concurrent-item > strong { color: #294c6e; font-size: 11px; }
+      .concurrent-item > p { color: #5e7182; }
+
+      .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin-top: 20px; padding-top: 17px; border-top: 1px solid var(--line); }
+      .button { min-height: 38px; padding: 0 14px; border: 1px solid #c9d4dd; border-radius: 8px; cursor: pointer; font-weight: 700; font-size: 12px; }
+      .button.primary { color: #fff; background: var(--blue); border-color: var(--blue); }
+      .button.primary:hover { background: var(--blue-deep); }
+      .button.secondary { color: #48545e; background: #fff; }
+      .button.secondary:hover { color: var(--blue); border-color: #9db7ce; }
+      .copy-status { min-height: 18px; margin-left: auto; color: var(--muted); font-size: 11px; text-align: right; }
+
+      @media (max-width: 560px) {
+        .generator-header, .controls, .result { padding-left: 18px; padding-right: 18px; }
+        .control-grid { grid-template-columns: 1fr 1fr; }
+        .field.duration-field { grid-column: 1 / -1; }
+        .toggles { grid-template-columns: 1fr; }
+      }
+
+      @media (max-width: 390px) {
+        body { font-size: 14px; }
+        .control-grid { grid-template-columns: 1fr; }
+        .field.duration-field { grid-column: auto; }
+        .result-heading { align-items: flex-start; flex-direction: column; gap: 7px; }
+        .schedule-meta { align-items: flex-start; }
+        .schedule-row { grid-template-columns: 76px minmax(0, 1fr); gap: 9px; }
+        .actions { flex-wrap: wrap; }
+        .copy-status { width: 100%; margin-left: 0; text-align: left; }
+      }
+
+      @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
+    </style>
+  </head>
+  <body>
+    <section class="generator" aria-labelledby="generator-title">
+      <header class="generator-header">
+        <p class="eyebrow">Schedule generator</p>
+        <h2 id="generator-title">Build your Hack Day schedule</h2>
+        <p>Set the shape of your event. Submission, judging, and winner-declaration steps are included automatically.</p>
+      </header>
+
+      <form class="controls" id="schedule-controls">
+        <div class="control-grid">
+          <label class="field duration-field" for="duration">
+            <span class="field-label"><span>Event length</span><output id="duration-output" for="duration">6 hr</output></span>
+            <input id="duration" name="duration" type="range" min="240" max="720" step="15" value="360">
+          </label>
+
+          <fieldset class="field">
+            <legend class="field-label"><span>Start time</span><small>15-min steps</small></legend>
+            <div class="time-picker">
+              <select id="start-hour" name="startHour" aria-label="Start hour">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9" selected>9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <select id="start-minute" name="startMinute" aria-label="Start minute">
+                <option value="00" selected>00</option>
+                <option value="15">15</option>
+                <option value="30">30</option>
+                <option value="45">45</option>
+              </select>
+              <select id="start-period" name="startPeriod" aria-label="Start time period">
+                <option value="AM" selected>AM</option>
+                <option value="PM">PM</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <label class="field" for="teams">
+            <span class="field-label">Expected teams</span>
+            <input id="teams" name="teams" type="number" min="2" max="24" step="1" value="6" inputmode="numeric">
+          </label>
+        </div>
+
+        <div class="toggles">
+          <label class="toggle" for="serve-food">
+            <input id="serve-food" name="serveFoodDuringBuild" type="checkbox" checked>
+            <span><strong>Make food available during building</strong><small>Shows when a meal or snacks can be available without pausing the event.</small></span>
+          </label>
+          <label class="toggle" for="include-workshop">
+            <input id="include-workshop" name="includeWorkshop" type="checkbox">
+            <span><strong>Add a focused workshop</strong><small>Reserves 30 minutes before building.</small></span>
+          </label>
+        </div>
+      </form>
+
+      <section class="result" aria-labelledby="schedule-title" aria-live="polite">
+        <div class="result-heading">
+          <h3 id="schedule-title">Your run of show</h3>
+          <div class="schedule-meta" id="schedule-meta"></div>
+        </div>
+        <aside class="warning" id="schedule-warnings" hidden></aside>
+        <ol class="schedule" id="schedule-list"></ol>
+        <div class="actions">
+          <button class="button primary" id="copy-schedule" type="button">Copy schedule</button>
+          <button class="button secondary" id="copy-organizer-schedule" type="button">Copy organizer version</button>
+          <button class="button secondary" id="reset-schedule" type="button">Reset</button>
+          <span class="copy-status" id="copy-status" role="status"></span>
+        </div>
+      </section>
+    </section>
+    <script src="?asset=schedule-engine"></script>
+  </body>
+</html>

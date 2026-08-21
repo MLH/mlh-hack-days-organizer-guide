@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Hack Day reimbursement rate finder</title>
+    <style>
+      :root {
+        --blue: #265a8f;
+        --blue-deep: #1e4874;
+        --blue-soft: #eef5fb;
+        --ink: #1c1d1e;
+        --muted: #6f7378;
+        --line: #e1e7ec;
+        --surface: #f7f9fb;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: transparent; }
+      body {
+        margin: 0;
+        padding: 2px;
+        color: var(--ink);
+        background: transparent;
+        font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      input { font: inherit; }
+      .rate-tool {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: #fff;
+        box-shadow: 0 8px 24px rgb(31 65 94 / 7%);
+      }
+      .tool-header {
+        padding: 21px 24px 19px;
+        color: #fff;
+        background: linear-gradient(135deg, var(--blue-deep), var(--blue));
+      }
+      .eyebrow { margin: 0 0 6px; color: rgb(255 255 255 / 75%); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+      h2 { margin: 0; font-size: 23px; line-height: 1.2; letter-spacing: -.025em; }
+      .tool-header p:last-child { margin: 7px 0 0; color: rgb(255 255 255 / 82%); }
+      .controls { display: grid; grid-template-columns: minmax(0, 2fr) minmax(150px, 1fr); gap: 14px; padding: 20px 24px; border-bottom: 1px solid var(--line); }
+      .field { display: flex; flex-direction: column; min-width: 0; }
+      .field span { margin-bottom: 7px; color: #3b4650; font-size: 12px; font-weight: 700; }
+      input { width: 100%; height: 43px; padding: 0 12px; color: var(--ink); background: #fff; border: 1px solid #ccd5dc; border-radius: 8px; outline: none; }
+      input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgb(38 90 143 / 12%); }
+      .results { padding: 21px 24px 23px; }
+      .empty { margin: 0; padding: 16px; color: var(--muted); text-align: center; background: var(--surface); border-radius: 9px; }
+      .result-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+      .result-heading h3 { margin: 0; font-size: 18px; }
+      .result-heading span { color: var(--muted); font-size: 11px; }
+      .stat-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+      .stat { min-width: 0; padding: 13px; background: var(--surface); border: 1px solid var(--line); border-radius: 9px; }
+      .stat.primary { background: var(--blue-soft); border-color: #cfe1f0; }
+      .stat span { display: block; color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+      .stat strong { display: block; margin-top: 3px; color: var(--blue-deep); font-size: 21px; line-height: 1.2; }
+      .note { margin: 14px 0 0; color: var(--muted); font-size: 11px; }
+      [hidden] { display: none !important; }
+
+      @media (max-width: 520px) {
+        .tool-header, .controls, .results { padding-left: 18px; padding-right: 18px; }
+        .controls, .stat-grid { grid-template-columns: 1fr; }
+        .result-heading { align-items: flex-start; flex-direction: column; gap: 2px; }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="rate-tool" aria-labelledby="rate-title">
+      <header class="tool-header">
+        <p class="eyebrow">Reimbursement rate finder</p>
+        <h2 id="rate-title">Estimate your country allowance</h2>
+        <p>Search for your event country and enter expected verified check-ins.</p>
+      </header>
+
+      <div class="controls">
+        <label class="field" for="country">
+          <span>Event country</span>
+          <input id="country" name="country" type="search" list="country-options" placeholder="Start typing a country" autocomplete="off">
+          <datalist id="country-options"></datalist>
+        </label>
+        <label class="field" for="attendees">
+          <span>Expected check-ins</span>
+          <input id="attendees" name="attendees" type="number" min="1" max="50" step="1" value="30" inputmode="numeric">
+        </label>
+      </div>
+
+      <section class="results" aria-live="polite">
+        <p class="empty" id="rate-empty">Choose a country from the suggestions to see its rate.</p>
+        <div id="rate-result" hidden>
+          <div class="result-heading">
+            <h3 id="result-country"></h3>
+            <span id="result-attendance"></span>
+          </div>
+          <div class="stat-grid">
+            <div class="stat">
+              <span>Per checked-in hacker</span>
+              <strong id="result-per-hacker"></strong>
+            </div>
+            <div class="stat">
+              <span>Maximum at 50</span>
+              <strong id="result-maximum"></strong>
+            </div>
+            <div class="stat primary">
+              <span>Allowance at this attendance</span>
+              <strong id="result-allowance"></strong>
+            </div>
+          </div>
+          <p class="note">Amounts are shown in USD. Final reimbursement is the lower of this allowance and your approved, itemized spending.</p>
+        </div>
+      </section>
+    </section>
+    <script src="?asset=rate-engine"></script>
+  </body>
+</html>

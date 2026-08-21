@@ -1,27 +1,43 @@
+---
+description: Challenge guidance, participant resources, opening materials, and judging requirements for Snowflake Hack Days.
+---
+
 # Snowflake
 
-We're looking for \~5 organizers in the US to help us pilot a special new version of Hack Days with Snowflake. If you're interested in alpha testing this program with us, please start a Snowflake Hack Day application below!
+**Status:** Active full partner
 
-{% hint style="info" %}
-**Start Your Application:** [https://organize.mlh.io/host/hack-days](https://organize.mlh.io/host/hack-days)
-{% endhint %}
+**Last reviewed:** August 2026
 
-As part of hosting a Hack Day, you'll run a Best Use of Snowflake prize category. Here's a description of the prize, which should be added to your Devpost page:
+Snowflake supports Major League Hacking and the Hack Days program with a platform that brings data, applications, and AI capabilities together. Hackers can use its APIs and AI tools to add intelligent features to their projects without managing a collection of separate services.
 
-### Best Use of Snowflake
+## Best Use of Snowflake
 
-**Arduino Tiny Machine Learn Kit**
+It’s time to turn your data into an intelligent application. Play with industry-leading LLMs on a single account using the Snowflake APIs. Adding AI to your project can be as simple as a single `curl` command to Snowflake's REST API. So, what can you build with Snowflake?
 
-Play with industry-leading LLMs on a single account using the Snowflake APIs. Adding AI capabilities into your application can be as simple as a single CURL command to Snowflake's REST API.
+* Create a RAG-powered chatbot that answers questions using relevant data
+* Add AI-powered summarization, content generation, or information extraction to an application
+* Build a customized data application without stitching together a collection of separate AI services
 
-Build customized applications, RAG powered chat bots, or embed AI-powered features into your app in half the time with half the hassle. Get started for free with a special, student 120-day Snowflake trial and check out this repository for an example of the Snowflake REST API in action.
+Put Snowflake's data and AI capabilities to work… what intelligent experience will you build today?
 
-### Slides
+## Participant Resources
 
-Upon event approval, you will receive a set of slides as part of the official onboarding packet. You should present these slides to participants as part of your opening ceremony.
+Share the [Snowflake Demo Project](https://mlh.link/snowflake-demo) so hackers can see how a Python project references Snowflake packages and uses the API. Before the event, share the current account or trial instructions from the onboarding materials and confirm that both student and professional participants can complete that access flow.
 
-### Judging Info
+## Opening Ceremony
 
-You can reference the [Snowflake Demo Project](https://mlh.link/snowflake-demo) (also linked above) to see how Snowflake packages are referenced and how the API is leveraged in a Python code repository. \
-\
-Once you've confirmed Snowflake usage, choose the highest quality project with the most fleshed out usage of Snowflake's AI capabilities.&#x20;
+Use the [Snowflake opening ceremony deck](https://mlh.link/hackdays-snowflake-slides). Remove any example category that was not assigned to your event.
+
+## Judging Evidence
+
+Confirm that the project actually uses Snowflake. Choose the highest-quality eligible project with the strongest implementation of Snowflake's AI capabilities.
+
+## Expected Prize
+
+**Arduino Tiny Machine Learning Kit**
+
+Check your event's onboarding materials before sharing prize details with participants, as availability may vary by region.
+
+## Recording the Winner
+
+Follow [Closing Ceremony and Winner Declaration](../../event-planning-guide/closing-ceremony-and-winner-declaration.md) to record the winner before announcing the result.

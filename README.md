@@ -1,24 +1,48 @@
-# About Hack Days
+---
+description: Learn what Hack Days are, how they differ from full hackathons, and what MLH provides.
+---
 
-Hack Days are 12-hour-or-less, in-person mini hackathons powered by Major League Hacking (MLH) and our amazing partners (like Google, MongoDB, and GitHub). MLH wants organizers and hackers to have time and space to hack outside of full weekend-long hackathons. Weekend-long hackathons are awesome, and we help host over 250 a year, but Hack Days are specifically designed to be lower-lift and easier for organizers to host.
+# What Is a Hack Day?
 
-Simultaneously, Large Language Models and Generative AI have made it more possible than ever to build a cool hack in less time. We really believe this is an exciting moment to bring mini-hackathons to the community at large.
+Hack Days are small, free, entirely in-person mini hackathons powered by Major League Hacking (MLH) and our partners. They are designed to fit the scale of a professional meetup, workplace program, community workshop, or club gathering—not a full weekend hackathon.
 
-_**This website exists primarily as documentation for Hack Day Organizers. Not Hack Day hackers and attendees.**_
+Four to six hours is ideal, and an event may run for up to 12 hours. A Hack Day can be a workplace innovation session, professional meetup, community gathering, or student-led event; it does not need to fill an entire day.
+
+Generative AI and other developer tools make it possible for hackers to learn, experiment, and build meaningful projects in a shorter amount of time. Unless your assigned partner category says otherwise, hackers may use any technologies that help them build their projects.
 
 {% hint style="info" %}
-**Start Your Application:** [**https://organize.mlh.io/host/hack-days**](https://organize.mlh.io/host/hack-days)
+Before applying, review [Requirements and Eligibility](requirements-and-eligibility.md) for the complete Hack Day format and OrganizerHQ requirements.
 {% endhint %}
 
-### **How does organizing a Hack Day work?**
+## What This Guide Covers
 
-Here's the high-level overview of the steps. Make sure to check out the complete guide for all the details.
+This guide contains the Hack Day-specific rules and workflows organizers need to follow, including:
 
-1. **Apply to host a Hack Day.** You can do this right now. It just takes a few minutes.
-2. **Secure a venue.** Wherever your club or community typically meets is fine. This can be as simple as a room reservation at the library.
-3. **No Website Required.** Attendee registration and project submission is entirely through MLH's OrganizerHQ platform. Once your application is approved, start collecting registrations for the event. Then, manage team submissions seamlessly through the same platform.
-4. **Receive Swag.** As your Hack Day nears, we will ship you a physical swag pack for your attendees. This will include prizes, stickers, and swag (note: some prizes may be digital).
-5. **Order Food and Snacks.** We recommend planning ahead, but ordering once you have a confirmed count of hackers.
-6. **Get Reimbursed.** We'll reimburse you up to 350 USD\* for food, snacks, and other event expenses. For each hacker who checks into your event, you receive 7 USD\*.
-   1. _We can only reimburse you for the money you spent on the event._
-   2. _\*If you're outside the US, the amount we reimburse changes. See Reimbursements for more info._
+* Program eligibility and required event format
+* Short, copyable event schedules
+* OrganizerHQ registration, check-in, project, and winner workflows
+* MLH partner categories and judging requirements
+* Event closeout, reimbursements, and prize fulfillment
+
+For broader advice about building an organizing team, securing sponsorship, managing a large venue, marketing an event, or running a full-scale hackathon, use the [MLH Hackathon Organizer Guide](https://guide.mlh.com/). It is the main source for general “how to organize” guidance; this guide adds the requirements that are specific to Hack Days.
+
+## Why Organize a Hack Day?
+
+Hack Days give communities a low-barrier way to build together:
+
+* **Build community.** A short, focused event helps members collaborate and meet new people.
+* **Develop leadership skills.** Organizers practice project management, communication, and event planning.
+* **Encourage experimentation.** Hackers can learn unfamiliar tools and turn an idea into a working prototype.
+* **Access MLH support.** Approved events receive planning resources, reimbursement support, and—depending on availability—swag and prizes.
+
+## How the Program Works
+
+1. Confirm that your event meets the [requirements and eligibility rules](requirements-and-eligibility.md).
+2. [Apply to host](apply-to-host.md) through OrganizerHQ.
+3. Plan a focused event using the [recommended Hack Day schedule](event-planning-guide/sample-schedules.md).
+4. Use OrganizerHQ for registrations, check-ins, every presenting team's project submission, and MLH partner prize winners.
+5. Complete the required [event closeout](event-planning-guide/photography.md), including photos, your event summary, and receipts.
+
+{% hint style="info" %}
+**Ready to begin?** Review [Requirements and Eligibility](requirements-and-eligibility.md), then start your application.
+{% endhint %}
