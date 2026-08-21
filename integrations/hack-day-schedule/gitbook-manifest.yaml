@@ -1,0 +1,31 @@
+name: mlh-hack-day-schedule
+title: Hack Day Guide Tools
+organization: mlh
+visibility: private
+description: Interactive schedule and reimbursement tools for MLH Hack Days.
+summary: |
+    # Overview
+
+    The MLH Hack Day Guide Tools integration adds two interactive documentation blocks: a schedule generator and a searchable reimbursement-rate finder.
+
+    The schedule includes the required event workflow. The rate finder searches the reviewed country list and estimates the attendance-based allowance.
+
+    # Privacy and permissions
+
+    The block runs entirely in the visitor's browser. It stores no personal data, calls no external services, and requests no GitBook API scopes.
+script: ./src/index.tsx
+scopes: []
+blocks:
+    - id: schedule-generator
+      title: Hack Day schedule generator
+      description: Create a tailored Hack Day run of show.
+      markdown:
+          codeblock: hack-day-schedule
+          body: content
+    - id: reimbursement-rate-finder
+      title: Hack Day reimbursement rate finder
+      description: Search country rates and estimate the attendance-based allowance.
+      markdown:
+          codeblock: hack-day-reimbursement-rate
+          body: content
+target: space

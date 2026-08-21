@@ -1,66 +1,73 @@
 ---
-description: How to Use the Opening Ceremony Slides
+description: Check in every attendee and deliver a short, accessible Hack Day opening ceremony.
 ---
 
-# Opening Ceremony Guide
+# Opening Ceremony and Check-in
 
-### How to Use the Opening Ceremony Slides
+*Last reviewed: August 2026.*
 
-We've put together a slide deck for your Hack Day opening ceremony. It includes embedded videos from MLH so you don't have to present everything yourself — just fill in your event-specific details and you're good to go.
+Keep the opening focused. In most Hack Days, 15–20 minutes is enough to welcome attendees, present the required MLH material, explain the schedule, and make the submission process unmistakable.
 
-#### Step 1: Make a Copy
+## Prepare the Correct Deck
 
-Open the Opening Ceremony slide deck corresponding to your event:
+Use the opening ceremony material for the partner assigned to your event:
 
-* [Google Gemini](http://mlh.link/hackdays-gemini-slides)
+* [Google Gemini](https://mlh.link/hackdays-gemini-slides)
+* **Google Gemma:** Opening ceremony slides are to be confirmed. Use the material included in your event approval or onboarding packet.
+* [GitHub Copilot](https://mlh.link/hackdays-github-slides)
 * [Snowflake](https://mlh.link/hackdays-snowflake-slides)
-* [GitHub](https://mlh.link/hackdays-github-slides)
+* **Cloudflare:** Opening ceremony slides are to be confirmed.
+* **Solana:** Opening ceremony slides are to be confirmed.
 
-and go to **File → Make a copy**. All of your edits should happen in your copy — don't edit the original.
+Make a copy of the deck and edit only the organizer-controlled slides. The slide numbers may change; use the slide titles and placeholders to identify what to update.
 
-#### Step 2: Update Your Event Info
+## Before Doors Open
 
-The deck has placeholder text in brackets that you need to replace with your own details. Here's what to update:
+* Open OrganizerHQ and confirm that the event and check-in view are available.
+* Test the projector, audio, captions, embedded videos, links, and QR codes.
+* Download or otherwise prepare an offline fallback for required presentation material when venue Wi-Fi is unreliable.
+* Put the OrganizerHQ registration or check-in link where entrance volunteers can reach it.
+* Display the MLH Code of Conduct reporting information somewhere attendees can find independently.
 
-**Title slide (Slide 2)** — Replace `[Hack Day Name]`, `[Location]`, and `[Date]` with your event info.
+## Check In Every Attendee
 
-**Your intro slide (Slide 3)** — This is where you introduce yourself to attendees. Replace `YOUR_NAME` with your name, swap in your own photo, and fill in your organization, plus a couple fun facts about you. You can duplicate this slide if you have multiple organizers presenting.
+Check in attendees through OrganizerHQ as they arrive. Do not rely on a paper list or separate form as the attendance record. Resolve missing registrations before the attendee enters when practical.
 
-**Your org intro slide (Slide 22)** — Replace `[ORG NAME]` with your club or organization name, swap the logo, and fill in the description, how long you've been around, and a fun fact. This is your chance to hype up your community a bit.
+## Update the Organizer-Controlled Slides
 
-**Schedule slide (Slide 23)** — Fill in your actual event schedule with the correct times for hacking, workshops, meals, judging, etc.
+Replace the deck placeholders with:
 
-#### Step 3: Update the Links
+* Event name, location, and date
+* Organizer names, photos, and organization
+* The complete event schedule
+* Food, venue, and accessibility information
+* The approved community channel
+* The event's **Challenges** page and project submission QR code
+* The approved partner categories and prize descriptions
 
-Several slides have QR codes and links that need to point to your event-specific pages. Make sure to update these:
+Remove any example partner category that was not assigned to your event.
 
-**Discord slide (Slide 24)** — This slide points attendees to MLH's Community Discord (`mlh.link/Discord`). You can leave this as-is or update the link and QR code if you'd rather point attendees to your own community channel instead.
+## Deliver the Opening
 
-**Devpost slide (Slide 25)** — Update `mlh.link/Devpost` and its QR code with the actual link to your event's Devpost submission page. A bitly link works well here.
+Cover these points in order:
 
-**Check-in slide (Slide 26)** — Update `mlh.link/YourEventPage` and its QR code to your event's check-in page. This one is important — reimbursements are based on check-ins, so make sure this link is correct.
+1. Welcome attendees and introduce the organizers.
+2. Explain the Code of Conduct and how to report a concern.
+3. Present the required MLH and partner material.
+4. Review the schedule, food, venue, and support arrangements.
+5. State the exact project submission deadline.
+6. Show how to open the event's **Challenges** page, select **Add Submission**, and choose every eligible challenge.
+7. Explain the demo and judging format.
+8. Explain that organizers will record winners and publish the project gallery before announcing the results.
 
-#### Step 4: Edit the Prizes & Partners Section
+Use [Project Submissions and Judging](../project-submissions.md) for the attendee submission instructions and [Closing Ceremony and Winner Declaration](closing-ceremony-and-winner-declaration.md) for the organizer workflow.
 
-Starting at Slide 27, you'll find the prize categories section. Edit this whole section to reflect the prizes and partner categories for your specific event. The current slides include an example (Google Cloud / Gemini API), but you should update or replace these with whatever applies to your Hack Day.
+## Final Check
 
-#### What NOT to Edit
+* [ ] Every attendee has been checked in through OrganizerHQ.
+* [ ] The submission URL and deadline are visible.
+* [ ] The event shows only approved partner categories.
+* [ ] Attendees know the judging format and closing time.
+* [ ] Attendees know how to request help or report a concern.
 
-A bunch of slides in the deck are covered by embedded MLH videos — you don't need to touch these. Specifically, slides about what a Hack Day is, why Hack Days matter, the MLH intro, DEV community, and the code of conduct are all handled by the pre-recorded videos. The first slide in the deck ("READ ME!") also reminds you of this: skipped slides are covered in the MLH-provided videos.
-
-During the ceremony, the flow works like this: you present your intro, then the MLH video plays and covers those middle sections automatically, then it comes back to you for the org intro, schedule, links, and prizes.
-
-#### Quick Checklist
-
-Before your event, make sure you've done all of the following:
-
-* \[ ] Made a copy of the slide deck (not editing the original)
-* \[ ] Updated the title slide with your event name, location, and date
-* \[ ] Added your name, photo, and fun facts to the intro slide
-* \[ ] Filled in your org name, logo, and description
-* \[ ] Filled in the schedule with your actual times
-* \[ ] Updated the Discord/community link and QR code
-* \[ ] Updated the Devpost submission link and QR code
-* \[ ] Updated the check-in link and QR code
-* \[ ] Edited the prize categories to match your event
-* \[ ] Tested the embedded videos to make sure they play correctly
+For broader advice about speakers, production, and ceremonies at full-scale events, use the [MLH Hackathon Organizer Guide](https://guide.mlh.com/general-information/day-of-logistics-and-hacker-experience).
