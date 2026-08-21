@@ -47,7 +47,7 @@ Search by country and enter the expected number of verified OrganizerHQ check-in
 ```hack-day-reimbursement-rate
 ```
 
-The Hack Days program team owns this rate list. Rates were last reviewed in August 2026; update the calculator data and this review date together. If your approval materials show a different rate, follow the approval and email [hackdays@mlh.io](mailto:hackdays@mlh.io) so the guide can be corrected.
+Rates were last updated in August 2026. If your event approval lists a different rate, follow your approval and email [hackdays@mlh.io](mailto:hackdays@mlh.io).
 
 {% hint style="info" %}
 If your country is not listed, email [hackdays@mlh.io](mailto:hackdays@mlh.io) before your event.

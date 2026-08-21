@@ -56,7 +56,7 @@ You may use an external tool as an optional judging aid. It does not replace the
 
 ### What If a Team Misses the Submission Deadline?
 
-Do not silently judge a project that is missing from the required submission list. Pause, ask the team to complete the OrganizerHQ submission if the event schedule permits, and apply the same deadline policy to every team.
+A project must appear in OrganizerHQ before it is judged. If the event schedule allows, ask the team to submit and apply the same deadline policy to every team.
 
 ### What If No Project Is Eligible for a Partner Category?
 
@@ -74,7 +74,7 @@ Not always. Depending on availability and onboarding instructions, winners may r
 
 ### What If a Prize or Reimbursement Is Delayed?
 
-Email [hackdays@mlh.io](mailto:hackdays@mlh.io) with the event name and the relevant project, category, reimbursement, or fulfillment details. Do not send unnecessary attendee financial or identity information by email.
+Email [hackdays@mlh.io](mailto:hackdays@mlh.io) with the event name and the relevant project, category, reimbursement, or prize details. Do not send unnecessary attendee financial or identity information by email.
 
 ## Contact
 

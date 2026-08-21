@@ -77,4 +77,4 @@ Once the public gallery is correct:
 * [ ] The event lead knows who will complete the event summary.
 * [ ] The venue has been restored and all borrowed equipment returned.
 
-Continue to [Photos and Event Summary](photography.md), [Receipts and Reimbursement](../reimbursements.md), and [Prize Fulfillment](../swag.md).
+Continue to [Photos and Event Summary](photography.md), [Receipts and Reimbursement](../reimbursements.md), and [Prizes and Event Materials](../swag.md).
