@@ -24,7 +24,7 @@
 
 * [Photos and Event Summary](event-planning-guide/photography.md)
 * [Receipts and Reimbursement](reimbursements.md)
-* [Prize Fulfillment](swag.md)
+* [Prizes and Event Materials](swag.md)
 
 ## Partner Programs
 

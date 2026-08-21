@@ -2,7 +2,7 @@
 description: Set accurate expectations for event materials, physical prizes, and digital gift cards.
 ---
 
-# Prize Fulfillment
+# Prizes and Event Materials
 
 Your event approval or onboarding materials will explain what MLH expects to provide. Availability, shipping eligibility, partner assignment, and event timing may affect whether your event receives physical materials.
 
@@ -16,9 +16,9 @@ Confirm:
 * Whether winners should expect physical prizes or digital gift cards
 * Who will securely store and distribute any delivered materials
 
-Advertise only the prize format MLH has confirmed for the event.
+When sharing prize details, use the format confirmed in your event onboarding materials.
 
-The relevant [partner program page](partner-details/partner-details/README.md) describes the prize normally expected for each category. Your event approval and onboarding materials take precedence if availability or fulfillment has changed.
+The relevant [partner program page](partner-details/partner-details/README.md) describes the prize normally expected for each category. Your event approval and onboarding materials take precedence if the available prize has changed.
 
 ## Event Materials
 
@@ -43,8 +43,8 @@ Follow [Closing Ceremony and Winner Declaration](event-planning-guide/closing-ce
 * Keep undistributed materials secure.
 * Follow the onboarding instructions for unused or restricted materials.
 * Do not independently purchase replacement prizes with the expectation of reimbursement.
-* Direct winner questions about delayed or missing fulfillment to [hackdays@mlh.io](mailto:hackdays@mlh.io) with the event name, category, and recorded winning project.
+* Direct winner questions about delayed or missing prizes to [hackdays@mlh.io](mailto:hackdays@mlh.io) with the event name, category, and recorded winning project.
 
 {% hint style="info" %}
-Prize availability and format can change. The event approval and OrganizerHQ winner record—not an early promotional message—determine the fulfillment path.
+Prize availability and format can change. Use the prize information confirmed for your event, and make sure the winning project is recorded correctly in OrganizerHQ.
 {% endhint %}

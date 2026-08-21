@@ -4,8 +4,6 @@ description: Challenge guidance, participant resources, opening materials, and j
 
 # Cloudflare
 
-**Status:** Active
-
 **Last reviewed:** August 2026
 
 Cloudflare supports Major League Hacking and the Hack Days program with a unified platform for application and AI compute. Hackers can use Workers to build, deploy, and run applications and Workers AI to add AI inference without splitting their project across multiple infrastructure tools.
@@ -35,7 +33,7 @@ Encourage hackers to start by deploying a Worker, then add a model through Worke
 
 ## Opening Ceremony
 
-Opening ceremony slides are to be confirmed. Use the material included in your event approval or onboarding packet.
+Use the opening ceremony materials included in your event onboarding.
 
 ## Judging Evidence
 

@@ -4,8 +4,6 @@ description: Challenge guidance, participant resources, opening materials, and j
 
 # Google Gemma
 
-**Status:** Active
-
 **Last reviewed:** August 2026
 
 Google supports Major League Hacking and the Hack Days program with AI tools for experimentation and rapid prototyping. This category gives hackers a chance to build with Gemma, Google's family of lightweight, open models.
@@ -31,7 +29,7 @@ Share these resources before and during the event:
 
 ## Opening Ceremony
 
-Opening ceremony slides are to be confirmed. Use the material included in your event approval or onboarding packet.
+Use the opening ceremony materials included in your event onboarding.
 
 ## Judging Evidence
 

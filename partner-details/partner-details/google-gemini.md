@@ -4,8 +4,6 @@ description: Challenge guidance, participant resources, opening materials, and j
 
 # Google Gemini
 
-**Status:** Active
-
 **Last reviewed:** August 2026
 
 Google supports Major League Hacking and the Hack Days program with AI tools that help hackers move quickly from an idea to a working prototype. For this category, focus participant guidance on Google AI Studio and the Gemini API.

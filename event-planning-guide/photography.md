@@ -51,4 +51,4 @@ Submit the summary by the deadline in your onboarding materials. If you cannot f
 * [ ] Every MLH partner winner is confirmed in OrganizerHQ.
 * [ ] Photos follow the event's consent requirements.
 * [ ] The event summary has been submitted.
-* [ ] Itemized receipts have been passed to the reimbursement owner.
+* [ ] Itemized receipts have been passed to the person submitting them.

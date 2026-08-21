@@ -22,7 +22,7 @@ This guide contains the Hack Day-specific rules and workflows organizers need to
 * Short, copyable event schedules
 * OrganizerHQ registration, check-in, project, and winner workflows
 * MLH partner categories and judging requirements
-* Event closeout, reimbursements, and prize fulfillment
+* Event closeout, reimbursements, and prizes
 
 For broader advice about building an organizing team, securing sponsorship, managing a large venue, marketing an event, or running a full-scale hackathon, use the [MLH Hackathon Organizer Guide](https://guide.mlh.com/). It is the main source for general “how to organize” guidance; this guide adds the requirements that are specific to Hack Days.
 

@@ -4,8 +4,6 @@ description: Challenge guidance, participant resources, opening materials, and j
 
 # GitHub Copilot
 
-**Status:** Active
-
 **Last reviewed:** August 2026
 
 GitHub supports Major League Hacking and the Hack Days program by helping hackers collaborate and turn ideas into working software. GitHub Copilot adds AI assistance to the development workflow so participants can learn unfamiliar tools and spend more time building their core project.
