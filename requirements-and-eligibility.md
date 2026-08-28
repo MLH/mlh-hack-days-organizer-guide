@@ -15,7 +15,7 @@ Every Hack Day must meet all of these requirements:
 * **Receive MLH approval.** Submit a Hack Day application and wait for approval before advertising MLH or an MLH partner.
 * **Remain free.** Do not charge an entry, ticket, membership, or required participation fee.
 * **Take place entirely in person.** Registration and event communications may happen online, but virtual rounds and hybrid participation are not permitted.
-* **Run for 12 hours or less.** Four to six hours is ideal.
+* **Run for 3 to 12 hours.** Four to six hours is ideal.
 * **Use OrganizerHQ as the event system of record.** Use it for registrations, day-of check-ins, project submissions, and MLH partner prize winners.
 * **Collect every presenting team's project in OrganizerHQ.** Every team presenting a project must submit it through OrganizerHQ. Teams must additionally select each eligible partner challenge they are entering.
 * **Present the MLH opening material.** Show the short prerecorded presentation and the partner information assigned to your event.
