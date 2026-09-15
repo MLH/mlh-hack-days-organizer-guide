@@ -52,6 +52,30 @@ const reimbursementRateFinder = createComponent({
     },
 });
 
+const hacktoberfestReimbursementRateFinder = createComponent({
+    componentId: 'hacktoberfest-reimbursement-rate-finder',
+    async render(element, { environment }) {
+        if (element.context.type !== 'document') {
+            throw new Error('The reimbursement rate finder can only render in a document.');
+        }
+
+        const source = new URL(environment.integration.urls.publicContentEndpoint);
+        source.searchParams.set('tool', 'rate');
+        source.searchParams.set('theme', 'hacktoberfest');
+        source.searchParams.set('v', String(environment.integration.version));
+
+        return (
+            <block>
+                <webframe
+                    source={{ url: source.toString() }}
+                    aspectRatio={16 / 9}
+                    data={{}}
+                />
+            </block>
+        );
+    },
+});
+
 export default createIntegration({
     fetch: async (request) => {
         const url = new URL(request.url);
@@ -75,7 +99,15 @@ export default createIntegration({
         }
 
         if (url.searchParams.get('tool') === 'rate') {
-            return new Response(rateWebframeHtml, {
+            const rateTheme = url.searchParams.get('theme');
+            const themedRateWebframeHtml = rateTheme === 'hacktoberfest'
+                ? rateWebframeHtml.replace(
+                    '<html lang="en">',
+                    '<html lang="en" data-theme="hacktoberfest">',
+                )
+                : rateWebframeHtml;
+
+            return new Response(themedRateWebframeHtml, {
                 headers: {
                     'Content-Type': 'text/html; charset=utf-8',
                     'Cache-Control': 'public, max-age=300',
@@ -90,5 +122,9 @@ export default createIntegration({
             },
         });
     },
-    components: [scheduleGenerator, reimbursementRateFinder],
+    components: [
+        scheduleGenerator,
+        reimbursementRateFinder,
+        hacktoberfestReimbursementRateFinder,
+    ],
 });
