@@ -28,4 +28,10 @@ blocks:
       markdown:
           codeblock: hack-day-reimbursement-rate
           body: content
+    - id: hacktoberfest-reimbursement-rate-finder
+      title: Hacktoberfest reimbursement rate finder
+      description: Search country rates and estimate the attendance-based allowance using Hacktoberfest styling.
+      markdown:
+          codeblock: hacktoberfest-reimbursement-rate
+          body: content
 target: space
