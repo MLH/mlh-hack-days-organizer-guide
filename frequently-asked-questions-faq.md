@@ -16,7 +16,7 @@ Registration, event communications, and administrative work may happen online. C
 
 ### What If I Want to Run Longer Than 12 Hours?
 
-A Hack Day may not exceed 12 hours. Apply for [MLH Event Membership](https://mlh.link/member-event-application) if you are planning a longer hackathon.
+A Hack Day must run for at least 3 hours and may not exceed 12 hours. Apply for [MLH Event Membership](https://mlh.link/member-event-application) if you are planning a longer hackathon.
 
 ### Can More Than 50 People Attend?
 

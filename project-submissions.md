@@ -35,6 +35,8 @@ Tell hackers:
 
 Open the **Challenges** page yourself and confirm that every challenge assigned by MLH appears correctly. The **Add Submission** button becomes available only during the saved submission window.
 
+Use the [MLH Standard Hackathon Rules](https://github.com/MLH/mlh-policies/blob/main/standard-hackathon-rules.md) as the default: project-specific work happens during the Hack Day. Organizers may use a different approach when it suits their event, but must communicate it clearly before building begins.
+
 ## How Teams Submit Projects
 
 One team member should submit the project on behalf of the team:

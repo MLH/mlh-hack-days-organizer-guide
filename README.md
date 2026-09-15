@@ -6,7 +6,7 @@ description: Learn what Hack Days are, how they differ from full hackathons, and
 
 Hack Days are small, free, entirely in-person mini hackathons powered by Major League Hacking (MLH) and our partners. They are designed to fit the scale of a professional meetup, workplace program, community workshop, or club gathering—not a full weekend hackathon.
 
-Four to six hours is ideal, and an event may run for up to 12 hours. A Hack Day can be a workplace innovation session, professional meetup, community gathering, or student-led event; it does not need to fill an entire day.
+A Hack Day may run for 3 to 12 hours, although four to six hours is ideal. It can be a workplace innovation session, professional meetup, community gathering, or student-led event; it does not need to fill an entire day.
 
 Generative AI and other developer tools make it possible for hackers to learn, experiment, and build meaningful projects in a shorter amount of time. Unless your assigned partner category says otherwise, hackers may use any technologies that help them build their projects.
 

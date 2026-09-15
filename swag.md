@@ -32,6 +32,8 @@ Depending on availability, an event pack may include:
 
 Distribute materials according to the event's onboarding instructions. Do not substitute one partner's materials or prizes for another category.
 
+MLH handles or reimburses customs duties on event packs, so organizers should not be out of pocket. If you are asked to pay a charge on delivery, keep the documentation and email [hackdays@mlh.io](mailto:hackdays@mlh.io).
+
 ## Physical Prizes and Digital Gift Cards
 
 Some winners may receive digital gift cards after the event instead of physical prizes. Before announcing results, explain only the prize format confirmed for the event.

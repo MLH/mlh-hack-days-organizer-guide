@@ -38,7 +38,7 @@ Make food available during building rather than stopping the whole event for a m
 
 For a shorter event, give teams more time to build by asking participants to arrive with ideas or teams where practical. Reduce the number or length of demos before compressing submissions, judging, recording winners, or closing; those are the steps most likely to fail when an event runs late.
 
-For a longer event, add building time, mentor support, a focused workshop, or more demo time. For events of seven hours or more, the generator may reserve up to 90 minutes for project demos when the team count requires it. A Hack Day may not exceed 12 hours.
+For a longer event, add building time, mentor support, a focused workshop, or more demo time. For events of seven hours or more, the generator may reserve up to 90 minutes for project demos when the team count requires it. A Hack Day must run for at least 3 hours and may not exceed 12 hours.
 
 ## Adjust for Attendance
 
