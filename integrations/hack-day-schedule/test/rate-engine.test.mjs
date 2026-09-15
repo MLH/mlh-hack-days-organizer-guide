@@ -29,18 +29,10 @@ test("unknown countries return no estimate", () => {
 });
 
 
-test("the guide table matches every calculator rate and 50-person maximum", async () => {
+test("the guide retains the dynamic reimbursement rate finder", async () => {
   const guide = await readFile(new URL("../../../reimbursements.md", import.meta.url), "utf8");
-  const rows = [...guide.matchAll(/^\| (.+) \| \$(\d+\.\d{2}) \| \$(\d+\.\d{2}) \|$/gm)];
-  assert.equal(rows.length, RATE_DATA.length);
-  assert.equal(new Set(rows.map((row) => row[1])).size, RATE_DATA.length);
-  for (const [, country, rate, maximum] of rows) {
-    const allowance = calculateAllowance(country, 50);
-    assert.ok(allowance, country);
-    assert.equal(Number(rate), allowance.perHacker, country);
-    assert.equal(Number(maximum), allowance.maximum, country);
-  }
-  assert.doesNotMatch(guide, /```hack-day-reimbursement-rate/);
+  assert.match(guide, /```hack-day-reimbursement-rate\n```/);
+  assert.doesNotMatch(guide, /\| Country \| Per Hacker/);
 });
 
 test("approved additions and retained rates are present, and Russia is removed", () => {
