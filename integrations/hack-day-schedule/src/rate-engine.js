@@ -39,6 +39,7 @@ const RATE_DATA = Object.freeze([
   ["Georgia", 2.31],
   ["Germany", 5.40],
   ["Ghana", 2.10],
+  ["Gibraltar", 6.08],
   ["Greece", 3.93],
   ["Guatemala", 2.99],
   ["Hong Kong (China)", 4.94],
