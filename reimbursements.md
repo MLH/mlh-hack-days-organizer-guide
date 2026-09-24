@@ -25,7 +25,7 @@ Keep a full itemized receipt for every purchase. MLH will invite you to submit r
 
 Submit receipts by the deadline in your event approval or onboarding materials. If a Ramp invitation or deadline is missing, email [hackdays@mlh.io](mailto:hackdays@mlh.io) rather than waiting until the reimbursement window may have closed.
 
-We offer different reimbursement rates depending on the country in which the Hack Day is organized; use the rate finder below. We use purchasing power parity to calculate a comparable amount of funding in each country. We list reimbursement amounts in USD here. Your reimbursements may be in either USD or your local currency, depending on your banking details and preferences in Ramp. The typical timeline for reimbursement is 30 days from submitting receipts, although it can take a few weeks more or less depending on individual circumstances.
+We offer different reimbursement rates depending on the country in which the Hack Day is organized; use the rate finder below. We list reimbursement amounts in USD here. Your reimbursements may be in either USD or your local currency, depending on your banking details and preferences in Ramp. The typical timeline for reimbursement is 30 days from submitting receipts, although it can take a few weeks more or less depending on individual circumstances.
 
 ## Eligible Expenses
 
@@ -48,8 +48,6 @@ Search by country and enter the expected number of verified OrganizerHQ check-in
 ```
 
 Rates were last updated on 24 September 2026. If your event approval lists a different rate, follow your approval and email [hackdays@mlh.io](mailto:hackdays@mlh.io).
-
-Gibraltar, Monaco and Vatican City use provisional rates based on the existing allowances for the United Kingdom, France and Italy, respectively.
 
 {% hint style="info" %}
 If your country is not listed, email [hackdays@mlh.io](mailto:hackdays@mlh.io) before your event.
