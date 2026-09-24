@@ -4,7 +4,7 @@ description: Submit itemized receipts and understand Hack Day reimbursement cond
 
 # Receipts and Reimbursement
 
-*Last reviewed: 17 September 2026.*
+*Last reviewed: 24 September 2026.*
 
 ## Before You Request Reimbursement
 
@@ -47,7 +47,7 @@ Search by country and enter the expected number of verified OrganizerHQ check-in
 ```hack-day-reimbursement-rate
 ```
 
-Rates were last updated on 17 September 2026. If your event approval lists a different rate, follow your approval and email [hackdays@mlh.io](mailto:hackdays@mlh.io).
+Rates were last updated on 24 September 2026. If your event approval lists a different rate, follow your approval and email [hackdays@mlh.io](mailto:hackdays@mlh.io).
 
 Gibraltar, Monaco and Vatican City use provisional rates based on the existing allowances for the United Kingdom, France and Italy, respectively.
 
