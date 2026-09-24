@@ -7,7 +7,7 @@ await import("../src/rate-engine.js");
 const { RATE_DATA, calculateAllowance, findRate, formatUSD } = globalThis.HackDayRates;
 
 test("the rate finder includes every reviewed country", () => {
-  assert.equal(RATE_DATA.length, 125);
+  assert.equal(RATE_DATA.length, 126);
   assert.equal(findRate("United States").perHacker, 7);
   assert.equal(findRate("united kingdom").perHacker, 6.08);
 });
@@ -52,4 +52,9 @@ test("approved additions and retained rates are present, and Russia is removed",
  test("Gibraltar uses the existing UK proxy rate", () => {
   assert.equal(findRate("Gibraltar").perHacker, findRate("United Kingdom").perHacker);
   assert.equal(calculateAllowance("Gibraltar", 50).maximum, 304);
+});
+
+test("Liberia uses the World Bank 2024 GDP price level", () => {
+  assert.equal(findRate("Liberia").perHacker, 3.18);
+  assert.equal(calculateAllowance("Liberia", 50).maximum, 159);
 });
