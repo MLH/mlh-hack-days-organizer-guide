@@ -49,12 +49,12 @@ test("approved additions and retained rates are present, and Russia is removed",
   assert.equal(calculateAllowance("Rwanda", 50).maximum, 94.50);
 });
 
- test("Gibraltar uses the existing UK proxy rate", () => {
-  assert.equal(findRate("Gibraltar").perHacker, findRate("United Kingdom").perHacker);
+ test("Gibraltar has the approved rate and maximum", () => {
+  assert.equal(findRate("Gibraltar").perHacker, 6.08);
   assert.equal(calculateAllowance("Gibraltar", 50).maximum, 304);
 });
 
-test("Liberia uses the World Bank 2024 GDP price level", () => {
+test("Liberia has the approved rate and maximum", () => {
   assert.equal(findRate("Liberia").perHacker, 3.18);
   assert.equal(calculateAllowance("Liberia", 50).maximum, 159);
 });
