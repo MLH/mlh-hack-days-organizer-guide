@@ -113,7 +113,7 @@ const RATE_DATA = Object.freeze([
   ["Togo", 2.25],
   ["Trinidad and Tobago", 3.60],
   ["Tunisia", 2.02],
-  ["Türkiye", 2.47],
+  ["Turkey (Türkiye)", 2.47],
   ["Uganda", 2.46],
   ["Ukraine", 2.03],
   ["United Arab Emirates", 4.44],
@@ -132,7 +132,8 @@ function clamp(value, minimum, maximum) {
 }
 
 function findRate(country) {
-  const normalized = String(country || "").trim().toLocaleLowerCase();
+  let normalized = String(country || "").trim().toLocaleLowerCase();
+  if (["turkey", "türkiye", "turkiye"].includes(normalized)) normalized = "turkey (türkiye)";
   return RATE_DATA.find((entry) => entry.country.toLocaleLowerCase() === normalized) || null;
 }
 
