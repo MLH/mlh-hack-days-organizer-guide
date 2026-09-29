@@ -58,3 +58,10 @@ test("Liberia has the approved rate and maximum", () => {
   assert.equal(findRate("Liberia").perHacker, 3.18);
   assert.equal(calculateAllowance("Liberia", 50).maximum, 159);
 });
+
+test("Turkey is discoverable with both names and without accents", () => {
+  for (const name of ["Turkey", "Türkiye", "Turkiye", " TURKEY ", "Turkey (Türkiye)"]) {
+    assert.equal(findRate(name).country, "Turkey (Türkiye)");
+    assert.equal(calculateAllowance(name, 50).allowance, 123.50);
+  }
+});
